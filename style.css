@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1320px;
+    max-width: 1170px;
     border: 1px solid red;
     margin: auto;
 
@@ -20,6 +20,12 @@
 }
 .p-15{
     padding: 15px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-40{
+    padding-bottom: 40px;
 }
 
 .row{
@@ -40,6 +46,9 @@
 }
 .j-end{
     justify-content: end;
+}
+.j-start{
+    justify-content: start;
 }
 .align-center{
     align-items: center;
@@ -177,33 +186,37 @@
 }
 
 .box1 {
-    padding: 120px 45px;
     position: relative;
 }
 
 .arrival_bg_box {
-    position: absolute;
-    top: 0;
-    left: 0;
+   
     width: 100%;
     height: 100%;
-    z-index: 3;
+    z-index: 1;
 }
 
 .arrival_bg_box img {
-    width: 50%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top left;
 }
 
 .heading h2 {
-    position: relative;
     margin-bottom: 0;
     font-size: 3.5rem;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     color: #002c3e;
+}
+
+.heading p{
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0c0c;
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom:30px;
 }
 
 .layout_padding {
@@ -420,13 +433,14 @@ footer {
 
 .logo_footer {
     margin-bottom: 30px;
+    padding: 0px 15px;
 }
 
 .information_f p {
     margin-bottom: 19px;
     line-height: 25px;
     font-size: 15px;
-   padding-right: 20px;
+    padding: 0px 15px;
 }
 
 strong {
@@ -444,6 +458,7 @@ strong {
     text-transform: uppercase;
     letter-spacing: 0.2px;
     margin-bottom: 25px;
+    padding: 0px 15px;
 }
 
 .f_menu ul {
@@ -455,6 +470,7 @@ strong {
 .f_menu ul li {
     float: left;
     width: 100%;
+    padding: 0px 15px;
 }
 
 .f_menu ul li a {
@@ -464,6 +480,27 @@ strong {
     float: left;
     width: 100%;
     margin-top: 10px;
+    text-decoration: none;
+}
+
+.cpy_ {
+    background: #222;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cpy_ p {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cpy_ p a {
+    margin: 0;
+    color: #f7444e;
+    font-size: 18px;
+    font-weight: 400;
     text-decoration: none;
 }
 

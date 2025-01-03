@@ -13,6 +13,9 @@
 .w-5{
     width: 20%;
 }
+.w-1-5{
+    width: 60%;
+}
 
 .hide{
     display: none;
