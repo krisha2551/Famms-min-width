@@ -8,7 +8,13 @@
     max-width: 1170px;
     border: 1px solid red;
     margin: auto;
+}
 
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .mt-100{
@@ -26,13 +32,6 @@
 }
 .pb-40{
     padding-bottom: 40px;
-}
-
-.row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .d-flex{
@@ -91,14 +90,14 @@
     position: relative;
     padding: 90px 0 75px 0;
     background-image: url(img/slider-bg.jpg);
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     object-fit: cover;
     object-position: top right;
 }
 
 .main_banner h1{
-    font-size: 4.5rem;
+    font-size: 72px;
     font-weight: bold;
     margin-bottom: 15px;
     font-family: "Playfair Display", serif;
@@ -111,9 +110,9 @@
 }
 
 .main_banner p{
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .btn-box1 a{
@@ -127,6 +126,11 @@
     margin-top: 10px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.btn-box1 a:hover {
+    background-color: transparent;
+    color: #f7444e;
 }
 
 
@@ -144,6 +148,17 @@
 .main_slider .slick-dots li.slick-active button:before{
     color: tomato !important;
     font-size: 25px !important;
+}
+
+.heading_container h2 {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 56px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0c0c;
 }
 
 .box{
@@ -205,7 +220,7 @@
 
 .heading h2 {
     margin-bottom: 0;
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     color: #002c3e;
@@ -235,7 +250,7 @@
 .heading_container h2 {
     position: relative;
     margin-bottom: 0;
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
 }
@@ -335,7 +350,7 @@
     margin-top: 45px;
 }
 
-.btn-box1 a {
+.btn-box a {
     display: inline-block;
     padding: 10px 40px;
     background-color: #f7444e;
@@ -347,7 +362,7 @@
     font-family:"Montserrat", serif;
 }
 
-.btn-box1 a:hover {
+.btn-box a:hover {
     background-color: transparent;
     color: #f7444e;
 }
@@ -383,7 +398,7 @@
 .heading_container.heading_center p{
     font-family:"Montserrat", serif;
     color: #0c0c0c;
-    font-size: 30px;
+    font-size: 16px;
     margin: 0px 0px 16px;
 }
 
@@ -410,7 +425,7 @@
     border: 1px solid #f7444e;
     color: #ffffff;
     border-radius: 35px;
-    -webkit-transition: all 0.3s;
+    font-size: 16px;
     transition: all 0.3s;
     text-transform: uppercase;
     margin-top: 35px;
@@ -424,6 +439,53 @@
     color: #f7444e;
     border: 1px solid #f7444e;
 }
+
+.container-slide{
+    max-width: 700px;
+    border: 1px solid red;
+    padding: 10px;
+    margin:100px auto;
+}
+
+
+.testimonials{
+    text-align: center;
+}
+
+.testimonials img{
+    display: block;
+    margin: auto;
+}
+
+
+.testimonials .slick-next, .slick-prev{
+    background-color: red !important;
+    padding: 20px  !important;
+    border-radius: 50%  !important;
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    right:90px !important
+}
+
+.testimonials .slick-next{
+    right:90px !important
+}
+
+.testimonials .slick-prev{
+    left:90px !important
+}
+
+.testimonials .slick-next::before{
+   content: "\2B05" !important;
+}
+
+.testimonials .slick-prev::before{
+    content: "⬅️" !important;
+}
+
 
 footer {
     background: #f8f8f8;
@@ -474,7 +536,7 @@ strong {
 }
 
 .f_menu ul li a {
-    font-size: 15px;
+    font-size: 16px;
     color: #000;
     margin-bottom: 0;
     float: left;
@@ -482,6 +544,14 @@ strong {
     margin-top: 10px;
     text-decoration: none;
 }
+
+.information_f p {
+    margin-bottom: 19px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+
 
 .cpy_ {
     background: #222;
@@ -503,4 +573,28 @@ strong {
     font-weight: 400;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
